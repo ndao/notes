@@ -4,7 +4,7 @@ module.exports = {
     // The standard entry point and output config
     entry: ['./index.js'],
     output: {
-        filename: "popup.js"
+        filename: "./build/popup.js"
     },
     module: {
         loaders: [
@@ -24,7 +24,7 @@ module.exports = {
     },
     // Use the plugin to specify the resulting filename (and add needed behavior to the compiler)
     plugins: [
-        new ExtractTextPlugin("style.css", {
+        new ExtractTextPlugin("./build/style.css", {
             allChunks: true
         })
     ]
