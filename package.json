@@ -1,0 +1,27 @@
+{
+  "name": "notes",
+  "version": "0.0.1",
+  "description": "Super quick note chrome extension",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndao/notes.git"
+  },
+  "author": "ndao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndao/notes/issues"
+  },
+  "homepage": "https://github.com/ndao/notes#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1"
+  }
+}
